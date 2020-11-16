@@ -1,0 +1,41 @@
+                            .cover {
+                                height: 400px;
+                                background-image: url(../../assets/img/multimedia/rosita.jpg);
+                                color: white;
+                                background-size: cover;
+                                background-position: left;
+                                background-blend-mode: darken;
+                            }
+                            
+                            .cover-small {
+                                height: 300px;
+                                background-blend-mode: normal;
+                            }
+                            
+                            .card-body {
+                                border: 0 !important;
+                                border-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+                            }
+                            
+                            .cardtitle {
+                                min-height: 3rem;
+                            }
+                            
+                            .card-text {
+                                min-height: 10rem;
+                            }
+                            
+                            body {
+                                font-family: 'Roboto', sans-serif;
+                            }
+                            
+                            h3,
+                            h4,
+                            h5 {
+                                font-family: 'Domine', serif;
+                            }
+                            
+                            canvas {
+                                border: solid 8px white;
+                                background: linear-gradient(120deg, #7f70f5, #0ea0ff);
+                            }
