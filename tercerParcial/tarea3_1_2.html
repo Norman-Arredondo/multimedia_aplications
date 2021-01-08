@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Lenguajes de Programación de Multimedia</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="../assets/css/style-good.css">
+
+    <!-- Vue development version-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="../components/the-nav.js"></script>
+    <script src="../components/the-footer.js"></script>
+
+</head>
+
+<body>
+    <div id="content">
+        <nav>
+            <the-nav></the-nav>
+        </nav>
+
+        <main class="page blog-post">
+            <section class="clean-block clean-post dark">
+                <div class="container">
+                    <div class="block-content">
+                        <div class="center-block post-image"
+                            style="background-image:url(../assets/img/Tecnologias/10.jpg);"></div>
+                        <div class="post-body">
+                            <h1 style="text-align: center;"><strong>Propuesta gráfica</strong><br>
+                            </h1>
+                            <div class="post-info"><span>Norman Arredondo</span><span>Noviembre 22, 2020</span></div>
+                            <h3>Sistema Operativo Android</h3>
+
+                            <h3>Elementos utilizados en el desarrollo de la aplicación</h3>
+                            <h4>LinearLayout</h4>
+                            <p>Es un grupo de vista que alinea todos los campos secundarios en una única dirección, de
+                                manera vertical u horizontal.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <the-footer></the-footer>
+        </footer>
+
+    </div>
+
+
+
+    <script src="../assets/js/jquery.min.js "></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js "></script>
+    <script src="../assets/js/theme.js "></script>
+    <script>
+        new Vue({
+            el: "#content",
+            components: {
+                'the-nav': TheNav,
+                'the-footer': Thefooter,
+                
+            },
+        });
+    </script>
+
+</body>
+
+<style>
+    p {
+        text-align: justify;
+    }
+
+    @page {
+        size: a3
+    }
+
+    @media (min-width:992px) {
+        .clean-card {
+            margin-bottom: 0
+        }
+
+        .clean-blog-post h3 {
+            padding-top: 0
+        }
+
+        .clean-block.clean-post .post-image {
+            height: 500px
+        }
+
+        .clean-block.clean-post .post-body {
+            padding: 70px 150px
+        }
+
+        .clean-block.clean-testimonials .item {
+            margin-bottom: 0
+        }
+
+        .clean-block.clean-post .post-body {
+            padding: 70px 100px
+        }
+
+        .clean-block.clean-post .post-body h4 {
+            padding-top: 50px
+        }
+    }
+
+    .clean-block {
+        padding-bottom: 100px
+    }
+
+    .clean-block .block-content,
+    .clean-block .content {
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .075);
+        background-color: #fff
+    }
+
+    .clean-block.clean-post .post-image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 300px
+    }
+
+    .clean-block.clean-post .post-image {
+        height: 400px
+    }
+
+    .clean-block.clean-post .post-image {
+        height: 500px
+    }
+
+    .clean-block.clean-post .post-body .post-info {
+        padding: 20px 0
+    }
+
+    .clean-block.clean-post .post-body .post-info span {
+        color: #007bff
+    }
+
+    .clean-block.clean-post .post-body .post-info span:not(:last-child) {
+        margin-right: 40px
+    }
+
+    .clean-block.clean-post .post-body h3 {
+        font-weight: 600
+    }
+
+    .clean-block.clean-post .post-body p {
+        margin-bottom: 30px
+    }
+
+    .clean-block.clean-post .post-body .post-info {
+        padding: 20px 0
+    }
+
+    .clean-block.clean-post .post-body .post-info span {
+        color: #007bff
+    }
+
+    .clean-block.clean-post .post-body .post-info span:not(:last-child) {
+        margin-right: 40px
+    }
+
+    .clean-block.clean-post .post-body h4 {
+        font-weight: 600;
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+
+    article,
+    aside,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    main,
+    nav,
+    section {
+        display: block
+    }
+
+    figure {
+        margin: 0 0 1rem
+    }
+
+    .figure {
+        display: inline-block;
+    }
+
+    .figure-img {
+        margin-bottom: .5rem;
+        line-height: 1
+    }
+
+    .figure-caption {
+        font-size: 90%;
+        color: #6c757d
+    }
+
+    .rounded {
+        border-radius: .25rem !important
+    }
+</style>
+
+</html>
