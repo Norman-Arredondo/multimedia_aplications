@@ -23,27 +23,14 @@ const TheNav = {
                 </li>
 
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
-                    Aplicaciones Multimedia
-                   </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="../tercerParcial/tarea3_1.html">Proceso de desarrollo de una aplicación multimedia</a>
-                        <a class="dropdown-item" href="../tercerParcial/tarea3_1_1.html">Análisis de la aplicación multimedia</a>
-                        <a class="dropdown-item" href="../tercerParcial/guion.html">Guion gráfico</a>
-                        <a class="dropdown-item" href="../tercerParcial/tarea3_1_2.html">Propuesta grafica</a>
-                        <a class="dropdown-item" href="../tercerParcial/tarea3_2.html">Diseño multimedia</a>
-                        <a class="dropdown-item" href="../tercerParcial/tarea3_2_1.html">Diseño del concepto de la aplicación</a>
-                        <a class="dropdown-item" href="../tercerParcial/tarea3_2_2.html">Manual de diseño gráfico</a>
-                        <a class="dropdown-item" href="../tercerParcial/tarea3_2_3.html">Diseño del prototipo</a>
-                        <a class="dropdown-item" href="../tercerParcial/tarea3_3.html">Modelado de la interfaz gráfica</a>
-                        <a class="dropdown-item" href="../tercerParcial/tarea3_3_1.html">Usabilidad de la aplicación multimedia </a>
-                        <a class="dropdown-item" href="../tercerParcial/tarea3_3_2.html">Ergonómicas de la aplicación multimedia</a>
-                        <a class="dropdown-item" href="../tercerParcial/tarea3_3_3.html">Iintegración del modelado </a>
-                        <a class="dropdown-item" href="../tercerParcial/tarea3_4.html">Implementación de aplicación multimedia</a>
-                        <a class="dropdown-item" href="../tercerParcial/tarea3_4_1.html">Prueba de integración </a>
-                        <a class="dropdown-item" href="../tercerParcial/tarea3_4_1.html">Implementación del proyecto </a>
-                        <a class="dropdown-item" href="../tercerParcial/tarea3_4_1.html">Puesta en producción </a>
-                    </div>
-                </li>
+                        Aplicaciones Multimedia
+                       </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="../tercerParcial/parte1.html">Elementos que conforman una aplicación multimedia Parte 1</a>
+                            <a class="dropdown-item" href="../tercerParcial/parte2.html">Elementos que conforman una aplicación multimedia Parte 2</a>
+                            <a class="dropdown-item" href="../tercerParcial/parte3.html">Elementos que conforman una aplicación multimedia Parte 3</a>
+                        </div>
+                    </li>
 
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
                      Tareas
