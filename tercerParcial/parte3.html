@@ -60,13 +60,19 @@
 
                         <h4>Tipos fundamentales de integración </h4>
                         <h5>Integración incremental</h5>
-                        <p>Se combina el siguiente componente que se debe probar con el conjunto de componentes que ya están probados y se va incrementando progresivamente el número de componentes a probar.
-                        Con el tipo de prueba incremental lo más probable es que los problemas que surjan al incorporar un nuevo componente o un grupo de componentes previamente probado, sean debidos a este último o a las interfaces entre éste y los otros componentes.
+                        <p>Se combina el siguiente componente que se debe probar con el conjunto de componentes que ya están probados y se va
+                        incrementando progresivamente el número de componentes a probar.
+                        Con el tipo de prueba incremental lo más probable es que los problemas que surjan al incorporar un nuevo componente o
+                        un grupo de componentes previamente probado, sean debidos a este último o a las interfaces entre éste y los otros 
+                        componentes.
                         </p>
 
                         <h5>Integración no incremental</h5>
-                        <p>Se prueba cada componente por separado y posteriormente se integran todos de una vez realizando las pruebas pertinentes. Este tipo de integración se denomina también Big-Bang (gran explosión).
+                        <p>Se prueba cada componente por separado y posteriormente se integran todos de una vez realizando las pruebas 
+                        pertinentes. Este tipo de integración se denomina también Big-Bang (gran explosión).
                         </p>
+
+                        
 
                         <div class="row d-flex justify-content-center">
                             <div class="col-md-6 col-lg-4">
@@ -86,10 +92,51 @@
 
                         <h3>3.4.3 Puesta en producción </h3>
 
+                        <h4>Desarrollo (development)</h4>
+                        <p>Una aplicación corre en este modo cuando aún se está desarrollando. Por ejemplo, para el caso de una aplicación
+                        web, si sigues manipulando el código y haciendo pruebas locales en tu máquina, estás en la fase de desarrollo.</p>
+
+                        <h4>Prueba (test)</h4>
+                        <p>Si estás haciendo desarrollo con pruebas unitarias (Test Driven Development), programarás pruebas que garanticen
+                        que tu aplicación funciona y cumple con una serie de requerimientos. Cuando ejecutas estas pruebas, muchas veces 
+                        quieres tener ciertos datos fijos y ejecutar tu aplicación con una configuración determinada. Para ello existe este entorno</p>
+
+                        <h4>Pruebas de producción (staging)</h4>
+                        <p>Ya que tu aplicación está casi lista, querrás hacer pruebas casi como se verá. Probablemente la cargues a un servidor
+                        de prueba, cuya configuración será prácticamente idéntica a la del servidor en la que correrá finalmente tu aplicación.
+                        Sin emabrgo, es posible que deshabilites cierta funcionalidad, como envíos de correo o conexión a servicios externos
+                        para evitar costos innecesarios en esta etapa. Por lo general en este modo se corren las pruebas de aceptación.</p>
+
+                        <h4>Producción (production)</h4>
+                        <p>Es el entorno en el que corre la aplicación que ya utilizará el usuario final. Para este punto toda la funcionalidad
+                        de la aplicación debe estar disponible y cualquier conexión con un servicio externo debe estar habilitada.</p>
+
+                        <section class="portfolio-block photography ">
+                            <div class="container ">
+                                <div class="row no-gutters ">
+                                    <div class="col-md-6 col-lg-4 item zoom-on-hover ">
+                                        <a><img class="img-fluid image " src="../assets/img/aplicaciones/6.jpg"></a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 item zoom-on-hover ">
+                                        <a><img class="img-fluid image " src="../assets/img/aplicaciones/7.jpg"></a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 item zoom-on-hover ">
+                                        <a><img class="img-fluid image " src="../assets/img/aplicaciones/8.jpg"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
                         
                         <h4><strong>Referencias</strong></h4>
                         <ul>
-                            <li><a href="https://www.uv.es/bellochc/pdf/pwtic5.pdf " target="_blank">https://www.uv.es/bellochc/pdf/pwtic5.pdf</a><br></li>
+                            <li><a href="https://obsbusiness.school/es/blog-investigacion/sistemas/pruebas-de-integracion-la-hora-de-la-verdad-para-el-software" target="_blank">https://obsbusiness.school/es/blog-investigacion/sistemas/</a><br></li>
+                            <li><a href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/integracion/" target="_blank">https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/integracion/</a><br></li>
+                            <li><a href="https://4tesosite.wordpress.com/pruebas-unitarias-y-de-integracion/" target="_blank">https://4tesosite.wordpress.com/pruebas-unitarias-y-de-integracion/</a><br></li>
+                            
+                            <li><a href="https://es.stackoverflow.com/questions/50670/qu%C3%A9-significa-llevar-un-proyecto-a-producci%C3%B3n#:~:text=Describe%20la%20puesta%20en%20marcha,todos%20los%20usuarios%20del%20sistema." target="_blank">https://es.stackoverflow.com/questions/50670/qu%C3%A9-significa-llevar-un-proyecto/</a><br></li>
+                            <li><a href="https://obsbusiness.school/es/blog-investigacion/sistemas/pruebas-de-integracion-la-hora-de-la-verdad-para-el-software" target="_blank">https://obsbusiness.school/es/blog-investigacion/sistemas/</a><br></li>
+
                         </ul>
                     </div>
                 </div>
