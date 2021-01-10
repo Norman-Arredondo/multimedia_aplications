@@ -1,6 +1,5 @@
 const TheMainArea = {
-    template:
-    `
+  template: `
     <!-- <main class="page projets-page" style="background:linear-gradient(to right, #536976, #292e49);">-->
     <main class="page blog-post">
         <section class="clean-block clean-post dark">
@@ -19,8 +18,21 @@ const TheMainArea = {
                         </ul>
                     </div>
                 </div>
+                
+                <div class="mt-4">
+                    <h1 style="text-align: center;" ><strong>Juego del ahorcado</strong><br></h1>
+                    <div class="d-flex justify-content-center">
+                
+                        <canvas id="pantalla" width="950px" height="450px">
+                        <!-- etiqueta del canvas con sus medidas en la pantalla -->
+                        </canvas>
+                    
+                    </div>
+                        <!-- El boton que nos sirve para recargar la pagina y asi generar una nueva palabra y volver a jugar -->
+                        <button id="boton" type="reset" onclick="javascript:window.location.reload();">Volver a Jugar</button>
+                </div>   
             </div>
         </section>
     </main>
-    `
-}
+    `,
+};

@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Lenguajes de Programación de Multimedia</title>
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
@@ -17,7 +18,17 @@
     <script src="../components/the-nav.js"></script>
     <script src="../components/the-main-area.js"></script>
     <script src="../components/the-footer.js"></script>
-    
+
+    <script src="./juegoAhorcado/ahorcadoScript.js"></script>
+
+    <style>
+        #pantalla {
+            border: groove 8px #8E2DE2;
+            background: linear-gradient(120deg, #7f70f5, #0ea0ff);
+
+        }
+    </style>
+
 </head>
 
 <body>
@@ -25,19 +36,19 @@
         <nav>
             <the-nav></the-nav>
         </nav>
-        
+
         <main>
             <the-main-area></the-main-area>
         </main>
-    
+
         <footer>
             <the-footer></the-footer>
         </footer>
 
     </div>
-    
 
-    
+
+
     <script src="../assets/js/jquery.min.js "></script>
     <script src="../assets/bootstrap/js/bootstrap.min.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js "></script>
@@ -51,98 +62,104 @@
     p {
         text-align: justify;
     }
-    
+
     @page {
         size: a3
     }
-    
+
     @media (min-width:992px) {
         .clean-card {
             margin-bottom: 0
         }
+
         .clean-blog-post h3 {
             padding-top: 0
         }
+
         .clean-block.clean-post .post-image {
             height: 500px
         }
+
         .clean-block.clean-post .post-body {
             padding: 70px 150px
         }
+
         .clean-block.clean-testimonials .item {
             margin-bottom: 0
         }
+
         .clean-block.clean-post .post-body {
             padding: 70px 100px
         }
+
         .clean-block.clean-post .post-body h4 {
             padding-top: 50px
         }
     }
-    
+
     .clean-block {
         padding-bottom: 100px
     }
-    
+
     .clean-block .block-content,
     .clean-block .content {
         box-shadow: 0 2px 10px rgba(0, 0, 0, .075);
         background-color: #fff
     }
-    
+
     .clean-block.clean-post .post-image {
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
         height: 300px
     }
-    
+
     .clean-block.clean-post .post-image {
         height: 400px
     }
-    
+
     .clean-block.clean-post .post-image {
         height: 500px
     }
-    
+
     .clean-block.clean-post .post-body .post-info {
         padding: 20px 0
     }
-    
+
     .clean-block.clean-post .post-body .post-info span {
         color: #007bff
     }
-    
+
     .clean-block.clean-post .post-body .post-info span:not(:last-child) {
         margin-right: 40px
     }
-    
+
     .clean-block.clean-post .post-body h3 {
         font-weight: 600
     }
-    
+
     .clean-block.clean-post .post-body p {
         margin-bottom: 30px
     }
-    
+
     .clean-block.clean-post .post-body .post-info {
         padding: 20px 0
     }
-    
+
     .clean-block.clean-post .post-body .post-info span {
         color: #007bff
     }
-    
+
     .clean-block.clean-post .post-body .post-info span:not(:last-child) {
         margin-right: 40px
     }
-    
+
     .clean-block.clean-post .post-body h4 {
         font-weight: 600;
         padding-top: 20px;
         padding-bottom: 20px
     }
-    
+
     article,
     aside,
     figcaption,
@@ -155,27 +172,27 @@
     section {
         display: block
     }
-    
+
     figure {
         margin: 0 0 1rem
     }
-    
+
     .figure {
         display: inline-block;
     }
-    
+
     .figure-img {
         margin-bottom: .5rem;
         line-height: 1
     }
-    
+
     .figure-caption {
         font-size: 90%;
         color: #6c757d
     }
-    
+
     .rounded {
-        border-radius: .25rem!important
+        border-radius: .25rem !important
     }
 </style>
 
