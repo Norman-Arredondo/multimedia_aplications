@@ -22,7 +22,7 @@ var aciertos = 0;
 var errores = 0;
 
 /* Palabras */
-palabras_array.push("LEON");
+palabras_array.push("INTEGRACION");
 palabras_array.push("CABALLO");
 palabras_array.push("PERRO");
 palabras_array.push("GATO");
@@ -92,8 +92,8 @@ function dibujaCajaLetra(){
 function pistaFunction(palabra){
     let pista = ""; // Se crea la variable local pista que contendra nuestra frase de pista
     switch(palabra){  // Se crea un switch para poder controlar las pistas segun la palabra 
-        case 'LEON':   // Se debera hacer un case por cada palabra 
-            pista = "Ruge y es fuerte";
+        case 'INTEGRACION':   // Se debera hacer un case por cada palabra 
+            pista = "Se aplica después de una prueba unitaria. Prueba de:";
             break;     // Es importante el break en cada case 
         case 'CABALLO':
             pista = "Hay de tierra y hay de mar";

@@ -37,9 +37,81 @@
             <the-nav></the-nav>
         </nav>
 
-        <main>
-            <the-main-area></the-main-area>
-        </main>
+        <!-- <main class="page projets-page" style="background:linear-gradient(to right, #536976, #292e49);">-->
+    <main class="page blog-post">
+        <section class="clean-block clean-post dark">
+            <div class="container">
+                <div class="block-content">
+                    <div class="center-block post-image" style="background-image:url(../assets/img/aplicaciones/1.jpg);"></div>
+                    <div class="post-body">
+                        <h1 style="text-align: center;"><strong>Proceso de desarrollo de una aplicación multimedia</strong><br></h1>
+                        <div class="post-info"><span>Norman Arredondo</span><span>Enero  07, 2021</span></div>
+                        
+                        <h3>3.3.3 Integración del modelado</h3>
+
+                        <h3>3.4 Implementación de aplicación multimedia</h3>
+
+                        <h3>3.4.1 Prueba de integración</h3>
+                        <p>Las pruebas de integración se tienen que aplicar justo después de haber llevado a cabo cada prueba unitaria con
+                         la intención de probar los métodos aplicados en el desarrollo. Si no existen ningún problema de código y las
+                         pruebas unitarias han terminado de forma exitosa se podrá pasar al test integral para asegurarse de que en este punto
+                         no se produce ningún tipo de problema en la combinación de elementos unitarios.
+                         </p>
+
+                        <h4>Tipos fundamentales de integración </h4>
+                        <h5>Integración incremental</h5>
+                        <p>Se combina el siguiente componente que se debe probar con el conjunto de componentes que ya están probados y se va incrementando progresivamente el número de componentes a probar.
+                        Con el tipo de prueba incremental lo más probable es que los problemas que surjan al incorporar un nuevo componente o un grupo de componentes previamente probado, sean debidos a este último o a las interfaces entre éste y los otros componentes.
+                        </p>
+
+                        <h5>Integración no incremental</h5>
+                        <p>Se prueba cada componente por separado y posteriormente se integran todos de una vez realizando las pruebas pertinentes. Este tipo de integración se denomina también Big-Bang (gran explosión).
+                        </p>
+
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card border-0"><img class="card-img-top scale-on-hover" src="../assets/img/aplicaciones/4.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card border-0"><img class="card-img-top scale-on-hover" src="../assets/img/aplicaciones/5.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                       
+                        
+
+                        <h3>3.4.2 Implementación del proyecto </h3>
+
+                        <h3>3.4.3 Puesta en producción </h3>
+
+                        
+                        <h4><strong>Referencias</strong></h4>
+                        <ul>
+                            <li><a href="https://www.uv.es/bellochc/pdf/pwtic5.pdf " target="_blank">https://www.uv.es/bellochc/pdf/pwtic5.pdf</a><br></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="mt-4">
+                    <h1 style="text-align: center;" ><strong>Juego del ahorcado</strong><br></h1>
+                    <div class="d-flex justify-content-center">
+                
+                        <canvas id="pantalla" width="950px" height="450px">
+                        <!-- etiqueta del canvas con sus medidas en la pantalla -->
+                        </canvas>
+                    
+                    </div>
+
+                    <div class="d-flex justify-content-center mt-4">
+                        <!-- El boton que nos sirve para recargar la pagina y asi generar una nueva palabra y volver a jugar -->
+                        <button type="button" class="btn btn-outline-danger" onclick="javascript:window.location.reload();">Jugar de nuevo</button>
+                    </div>
+                </div>   
+            </div>
+        </section>
+    </main>
 
         <footer>
             <the-footer></the-footer>
