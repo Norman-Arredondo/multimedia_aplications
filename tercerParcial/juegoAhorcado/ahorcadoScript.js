@@ -23,20 +23,20 @@ var errores = 0;
 
 /* Palabras */
 palabras_array.push("INTEGRACION");
-palabras_array.push("CABALLO");
-palabras_array.push("PERRO");
-palabras_array.push("GATO");
-palabras_array.push("LAGARTIJA");
-palabras_array.push("RINOCERONTE");
-palabras_array.push("TIBURON");
-palabras_array.push("CARACOL");
-palabras_array.push("ALACRAN");
-palabras_array.push("ARAÑA");
-palabras_array.push("CHAPULIN");
-palabras_array.push("AVESTRUZ");
-palabras_array.push("OCELOTE");
-palabras_array.push("MUSARAÑA");
-palabras_array.push("AGUILA");
+palabras_array.push("UML");
+palabras_array.push("INCREMENTAL");
+palabras_array.push("STAGING");
+palabras_array.push("PRODUCCION");
+palabras_array.push("MODELADO");
+palabras_array.push("INFORMATICA");
+palabras_array.push("TEST");
+palabras_array.push("PRUEBAS");
+palabras_array.push("DESARROLLO");
+palabras_array.push("MULTIMEDIA");
+palabras_array.push("APLICACION");
+palabras_array.push("COMPONENTES");
+palabras_array.push("UPIICSA");
+
         
 /* Objetos */
 function Tecla(x, y, ancho, alto, letra){
@@ -95,17 +95,32 @@ function pistaFunction(palabra){
         case 'INTEGRACION':   // Se debera hacer un case por cada palabra 
             pista = "Se aplica después de una prueba unitaria. Prueba de:";
             break;     // Es importante el break en cada case 
-        case 'CABALLO':
-            pista = "Hay de tierra y hay de mar";
+        case 'UML':
+            pista = "Herramienta para modelar una aplicación";
             break;
-        case 'PERRO':
-            pista = "El mejor amigo del hombre";
+        case 'INCREMENTAL':
+            pista = "Tipo fundamental de integración";
             break;
-        case 'GATO':
-            pista = "Son tiernos pero arañan";
+        case 'STAGING':
+            pista = "En este modo se corren las pruebas de aceptación";
             break;
+        case 'PRODUCCION':
+            pista = "Es el entorno en el que ya utilizará el usuario final";
+            break;
+        case 'PRUEBAS':
+            pista = "Programarás____que garanticen que tu aplicación funciona";
+            break;
+
+        case 'MODELADO':
+            pista = "Plasmar en un documeno lo que el cliente quiere";
+            break;
+
+        case 'UPIICSA':
+            pista = "Escuela más bonita del IPN";
+            break;
+      
         default:  // El defaul se puede omitir // 
-            pista="No hay pista aun xP";
+            pista="Son palabras utilizadas en el mundo de la informática";
     }
     // Pintamos la palabra en el canvas , en este ejemplo se pinta arriba a la izquierda //
     ctx.fillStyle = "black";  // Aqui ponemos el color de la letra

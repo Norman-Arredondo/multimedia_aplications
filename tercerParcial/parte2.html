@@ -17,6 +17,47 @@
     <script src="../components/the-nav.js"></script>
     <script src="../components/the-footer.js"></script>
 
+    <!--Script del juego de cartas-->
+    <script src="./cartas/juegoCartas.js"></script>
+
+    <!--CSS del juego de Cartas-->
+    <style>
+        #juego {
+            opacity: 0.3;
+            width: 600px;
+            height: 600px;
+        }
+
+        table {
+            width: 100%;
+            height: 100%;
+        }
+
+        td {
+            width: 25%;
+            height: 25%;
+            background-color: #61045F;
+            border: 3px solid #61045F;
+            border-radius: 5px;
+        }
+
+        .letra {
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            font-style: italic;
+        }
+
+        input {
+            width: 90px;
+            height: 30px;
+        }
+
+        .centrar {
+            margin-left: 210px;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -30,23 +71,137 @@
                 <div class="container">
                     <div class="block-content">
                         <div class="center-block post-image"
-                            style="background-image:url(../assets/img/aplicaciones/2.jpg);"></div>
+                            style="background-image:url(../tercerParcial/img/disenador.jpg);"></div>
                         <div class="post-body">
-                            <h1 style="text-align: center;"><strong>Análisis de la aplicación multimedia</strong><br>
+                            <h1 style="text-align: center;"><strong>Diseño de la aplicación multimedia</strong><br>
                             </h1>
-                            <div class="post-info"><span>Norman Arredondo</span><span>Noviembre 22, 2020</span></div>
-                            <h3>Sistema Operativo Android</h3>
+                            <div class="post-info"><span>Elena Garcia</span><span>Enero 09, 2021</span></div>
+                            <h3>3.2.2 Manual de diseño gráfico</h3>
+                            <p>El objetivo de un manual es suministrar los lineamientos, reglas o normas de como utilizar algo de una forma sistemática, explícita y ordenada. Esta guía de instrucciones nos servirá también para la corrección de algún problema</p>
+                            <p>El Manual de diseño gráfico digital examina los principios que apuntalan un diseño gráfico bueno y eficaz y explora los distintos ámbitos del diseño gráfico (impresión, packaging, señalización, publicidad, diseño de exposiciones y diseño web).</p>
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card border-0"><img class="card-img-top scale-on-hover" src="../tercerParcial/img/idea.jpg" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
 
-                            <h3>Elementos utilizados en el desarrollo de la aplicación</h3>
-                            <h4>LinearLayout</h4>
-                            <p>Es un grupo de vista que alinea todos los campos secundarios en una única dirección, de
-                                manera vertical u horizontal.</p>
+                            <h3>3.2.3. Diseño del prototipo</h3>
+                            <p>Un prototipo es una representación aparente pero concreta de parte o la totalidad de una idea de negocio o sobre un producto o servicio. Un prototipo es una “fachada”, un servicio de cartón/piedra, una simulación. Es decir, que incorpora los elementos básicos para que sea funcional, que se pueda probar, y que responda a una serie de preguntas sobre la viabilidad empresarial de la idea y sobre su modo de implementación.</p>
+                            <p>La realización de prototipos es el acto de hacer una idea más tangible, es pasar de la abstracción a una representación física de la realidad, aunque sea muy sencilla. Este trabajo nos sirve para validar la viabilidad del concepto de producto/servicio que tenemos.</p>
+                            <p>El prototipado te ayudará a:</p>
+                            <li>Testear, validar nuevas ideas rápidamente</li>
+                            <li>Entender las claves de la interacción del usuario</li>
+                            <li>Mejorar la experiencia de uso e iterar sobre ello</li>
+                            <li>Demostrar la capacidad de un producto (demoing)</li>
+                            <li>Validar el detalle del diseño de la apariencia: Definir el propósito de tamaños, colores, sombras, etc</li>
+                            </br>
 
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card border-0"><img class="card-img-top scale-on-hover" src="../tercerParcial/img/diseño.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+
+                            <h3>3.3 Modelado de la interfaz gráfica</h3>
+                            
+                            <p>El diseño de interfaz de usuario o ingeniería de la interfaz es el resultado de definir la forma, función, utilidad, ergonomía, imagen de marca y otros aspectos que afectan a la apariencia externa de las interfaces de usuario en sistemas de todo tipo (computadoras de uso general, sistemas de control, dispositivos de comunicación móviles, software de sistemas, software de aplicaciones, sitios web, etc). El modelo de una Interfaz de Usuario intenta mostrar cómo interactuará el usuario con la aplicación, y cómo responderá ésta.</p>
+                            <p>La Interfaz de Usuario tiene esencialmente dos componentes: la entrada y la salida.  La entrada es cómo una persona le comunica sus necesidades o deseos a la computadora. Algunos componentes de entrada comunes son el teclado, el ratón, un dedo (para pantallas sensibles al tacto: touch screen), y la voz de uno (para las instrucciones habladas). </p>
+                            <p>La salida es la forma en que la computadora transmite los resultados a lo solicitado por el usuario. Hoy en día el mecanismo de salida de la computadora más común es la pantalla, seguido de mecanismos que aprovechan las capacidades auditivas de una persona: de voz y sonido.</p>
+                            <p></p>
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card border-0"><img class="card-img-top scale-on-hover" src="../tercerParcial/img/modelo.jpg" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+
+                            <h3>3.3.1 Usabilidad de la aplicación multimedia</h3>
+                            <p>El término usabilidad es relativamente reciente. Se puede decir que surgió poco después de la expansión de Internet, a finales de los años 90. Pero, realmente, la idea que quiere expresar es bastante anterior, aunque se conocía con otros nombres como por ejemplo el Diseño Centrado en el Usuario o Human-Computer Interaction (HCI).</p>
+                            <p>“La usabilidad se refiere a la capacidad de un software o sistema interactivo de ser comprendido, aprehendido, usado fácilmente y atractivo para un usuario, en condiciones específicas de uso. También es la efectividad, eficiencia y satisfacción con la que un producto permite alcanzar sus objetivos específicos”.</p>
+                            <p>La facilidad de uso es el núcleo de la usabilidad. El éxito de una aplicación descansa sobre dos pilares fundamentales: que sea útil (que cumpla las expectativas del público objetivo) y que sea fácil de utilizar. La usabilidad se encarga de esta segunda cuestión, dejando la primera en manos del desarrollador de contenidos.</p>
+                            <p></p>
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card border-0"><img class="card-img-top scale-on-hover" src="../tercerParcial/img/dis.jpg" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+
+                            <h3>3.3.2 Ergonómicas de la aplicación multimedia</h3>
+                            <p>La ergonomía (también conocida como factores humanos) es la ciencia que estudia la interacción entre los seres humanos y otros elementos de un sistema, frecuentemente en el ámbito en el que una persona desarrolla su trabajo. El objetivo es, a través del diseño, incidir sobre dos resultados de las actividades humanas en estos sistemas: </p>
+                            <li>La ejecución, entendida en este contexto como productividad, eficiencia, seguridad, fiabilidad, etc.</li>
+                            <li>El bienestar, que hace referencia a la salud y protección de los trabajadores, la satisfacción en el trabajo, el desarrollo profesional, etc. </li>
+                            <p></p>
+                            <p>La ergonomía del software aplica los principios ergonómicos de diseño para adaptar los programas informáticos a las capacidades humanas, de forma que los usuarios no estén sobrecargados por la interacción con el sistema informático, sino que éste le sirva como apoyo en su trabajo.</p>
+                            <p>El propósito de aplicar los conceptos ergonómicos al software es el de diseñar aplicaciones que se adapten a las diferentes tareas y aptitudes del ser humano ante un ordenador. Los conceptos ergonómicos referidos al software, focalizan sus estudios en los aspectos físico y mental de los interfaces entre el usuario y los programas. Intentan diseñar procedimientos de diálogo y formatos de presentación que sean efectivos y fáciles de usar. También buscan que las aplicaciones sean fáciles de entender y aprender, y que potencien los conocimientos de quienes los usan.</p>
+                            <p></p>
+
+                            <h3 class="d-flex justify-content-center">Memorama!</h3>
+                            <h4>Instrucciones</h4>
+                            <p>Elige una carta dando clic sobre ella, podras ver el nombre de una palabra, trata de encontrar su par de entre las demas cartas. Solo puedes seleccionar dos de ellas, encuentra el par de cada una de las palabras y ganaras el juego.</p>
+                            <p>Para comenzar el juego presiona el boton "Iniciar"</p>
+                        </div>
+
+                        <div id="juego" class="container">
+                            <table class="table table-hover table-dark tableFixHead">
+                                <tr>
+                                    <td id="0" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+                                    <td id="1" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+                                    <td id="2" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+                                    <td id="3" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+                                </tr>
+                                <tr>
+                                    <td id="4" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+                                    <td id="5" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+                                    <td id="6" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+                                    <td id="7" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+                                </tr>
+                                <tr>
+                                    <td id="8" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+                                    <td id="9" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+                                    <td id="10" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+                                    <td id="11" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+                                </tr>
+                                <tr>
+                                    <td id="12" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+                                    <td id="13" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+                                    <td id="14" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+                                    <td id="15" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center mt-4 mb-4">
+                            <button type="button" class="btn btn-outline-primary mr-4 mb-4"
+                                onclick="iniciarJuego()">Iniciar</button>
+                            <button type="button" class="btn btn-outline-danger ml-4 mb-4"
+                                onclick="resetearJuego()">Reiniciar</button>
+                        </div>
+
+                        <div id="ref">
+                            <h4><strong>Referencias</strong></h4>
+                                <ul>
+                                    <li><a href="https://www.ecured.cu/Manual" target="_blank">https://www.ecured.cu/Manual</a><br></li>
+                                    <li><a href="https://dialnet.unirioja.es/servlet/libro?codigo=306856" target="_blank">https://dialnet.unirioja.es/servlet/libro?codigo=306856</a><br></li>
+                                    <li><a href="https://www.emprendeaconciencia.com/diseno-prototipo#:~:text=La%20realizaci%C3%B3n%20de%20prototipos%20es,de%20producto%2Fservicio%20que%20tenemos." target="_blank">https://4tesosite.wordpress.com/pruebas-unitarias-y-de-integracion/</a><br></li>
+                                    
+                                    <li><a href="http://sedici.unlp.edu.ar/bitstream/handle/10915/41578/Documento_completo.pdf?sequence=1" target="_blank">http://sedici.unlp.edu.ar/bitstream/handle/10915/41578/Documento_completo.pdf?sequence=1</a><br></li>
+                                    <li><a href="http://www.sistemasdg.com.ar/apuntes/usabilidad_para_web.pdf" target="_blank">http://www.sistemasdg.com.ar/apuntes/usabilidad_para_web.pdf</a><br></li>
+
+                                </ul>
+                            <br>
                         </div>
                     </div>
                 </div>
             </section>
         </main>
+
+
 
         <footer>
             <the-footer></the-footer>
@@ -66,7 +221,7 @@
             components: {
                 'the-nav': TheNav,
                 'the-footer': Thefooter,
-                
+
             },
         });
     </script>
@@ -74,6 +229,9 @@
 </body>
 
 <style>
+    #ref{
+        padding-left: 10%;
+    }
     p {
         text-align: justify;
     }
