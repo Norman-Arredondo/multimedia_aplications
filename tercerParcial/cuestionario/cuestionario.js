@@ -9,8 +9,7 @@ let rightAnswer;
                 {
                     "question": "Fase en la que se evaluan diferentes aspectos de un prototipo",
                     "audio": "./cuestionario/audio/pregunta1.mp3",
-                    "answers": ["Experimentacion y validacion", "Analisis", "Diseño", "Desarrollo"]
-                    
+                    "answers": ["Experimentacion y validacion", "Analisis", "Diseño", "Desarrollo"]   
                 },
                 {
                     "question": "Se utiliza como planificacion grafica y documento organizador",
@@ -21,6 +20,31 @@ let rightAnswer;
                     "question": "Es un proceso de esquematizacion",
                     "audio": "./cuestionario/audio/pregunta3.mp3",
                     "answers": ["Propuesta Grafica", "Guion Grafico", "Diseño Multimedia", "Justificacion"] 
+                },
+                {
+                    "question": "Se define como la apariencia o estilo propuesto",
+                    "audio": "./cuestionario/audio/pregunta4.mp3",
+                    "answers": ["Justificacion", "Propuesta grafica", "Diseño Multimedia", "Guion Grafico"]
+                },
+                {
+                    "question": "Si hablamos de comunicar información por medios visuales y auditivos hablamos de ",
+                    "audio": "./cuestionario/audio/pregunta5.mp3",
+                    "answers": ["Diseño Multimedia ", "Propuesta grafica", "Guion Grafico", "Justificacion"]
+                },
+                {
+                    "question": "Fase que consiste en la realizacion de una version inicial del programa",
+                    "audio": "./cuestionario/audio/pregunta6.mp3",
+                    "answers": ["Desarrollo", "Analisis", "Diseño", "Experimentacion y validacion"]   
+                },
+                {
+                    "question": "Tiene como finalidad recabar informacion sobre los usuarios",
+                    "audio": "./cuestionario/audio/pregunta7.mp3",
+                    "answers": ["Analisis", "Desarrollo", "Diseño", "Experimentacion y validacion"]   
+                },
+                {
+                    "question": "Es fase vital pues se realiza un manual de consulta para el usuario",
+                    "audio": "./cuestionario/audio/pregunta8.mp3",
+                    "answers": ["Elaboracion", "Analisis", "Diseño", "Experimentacion y validacion"]   
                 },
             ];
            
@@ -64,10 +88,12 @@ let rightAnswer;
             parentP.classList.add('right'); 
             rightAnswers++;
             document.querySelector('.rightCounter').innerHTML = rightAnswers;
+            alert("CORRECTO");
         }else{
             parentP.classList.add('wrong');
             wrongAnswers++;
             document.querySelector('.wrongCounter').innerHTML = wrongAnswers;
+            alert("RESPUESTA ERRONEA");
         }
     }
     const nextQuestion = _ =>{
@@ -76,4 +102,5 @@ let rightAnswer;
         printHTMLQuestion(0);
         document.querySelector('.btnIniciar').style.display = 'none';
         document.querySelector('.mamotreto').style.display = 'block';
+
     } 

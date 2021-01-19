@@ -108,7 +108,7 @@ function pistaFunction(palabra){
             pista = "Es el entorno en el que ya utilizará el usuario final";
             break;
         case 'PRUEBAS':
-            pista = "Programarás____que garanticen que tu aplicación funciona";
+            pista = "Programarás____que garanticen que tu aplicación funciona (Test)";
             break;
 
         case 'MODELADO':
