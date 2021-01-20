@@ -112,7 +112,7 @@ function pistaFunction(palabra){
             break;
 
         case 'MODELADO':
-            pista = "Plasmar en un documeno lo que el cliente quiere";
+            pista = "Plasmar en un documento lo que el cliente quiere";
             break;
 
         case 'UPIICSA':
